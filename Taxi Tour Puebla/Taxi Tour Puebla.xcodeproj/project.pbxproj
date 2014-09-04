@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6110FA7719B7517300C16128 /* flechaZama.png in Resources */ = {isa = PBXBuildFile; fileRef = 6110FA7619B7517300C16128 /* flechaZama.png */; };
+		611E86C119B7783F0045D126 /* SanPedroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E86BF19B7783F0045D126 /* SanPedroViewController.m */; };
+		611E86C219B7783F0045D126 /* SanPedroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E86C019B7783F0045D126 /* SanPedroViewController.xib */; };
+		611E86C419B7786A0045D126 /* SanPedro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 611E86C319B7786A0045D126 /* SanPedro.jpg */; };
+		611E86C619B780140045D126 /* ElEncantoRuisenor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 611E86C519B780140045D126 /* ElEncantoRuisenor.jpg */; };
+		611E86CA19B780DE0045D126 /* ElCantoRuisenorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E86C819B780DE0045D126 /* ElCantoRuisenorViewController.m */; };
+		611E86CB19B780DE0045D126 /* ElCantoRuisenorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E86C919B780DE0045D126 /* ElCantoRuisenorViewController.xib */; };
+		611E86CD19B785080045D126 /* ElEncantoRuisenorGrande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 611E86CC19B785080045D126 /* ElEncantoRuisenorGrande.jpg */; };
+		611E86CF19B7857D0045D126 /* PosadaSanPedro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 611E86CE19B7857D0045D126 /* PosadaSanPedro.jpg */; };
+		611E86D319B7865C0045D126 /* BlueBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E86D119B7865C0045D126 /* BlueBarViewController.m */; };
+		611E86D419B7865C0045D126 /* BlueBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E86D219B7865C0045D126 /* BlueBarViewController.xib */; };
+		611E86D619B786670045D126 /* BlueBar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 611E86D519B786670045D126 /* BlueBar.jpg */; };
+		611E86D819B7866D0045D126 /* BlueBarGrande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 611E86D719B7866D0045D126 /* BlueBarGrande.jpg */; };
+		611E86DA19B788CE0045D126 /* MuseoBello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 611E86D919B788CE0045D126 /* MuseoBello.jpg */; };
+		611E86DC19B788D50045D126 /* MuseoBelloGrande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 611E86DB19B788D50045D126 /* MuseoBelloGrande.jpg */; };
+		611E86E019B7895D0045D126 /* MuseoBelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E86DE19B7895D0045D126 /* MuseoBelloViewController.m */; };
+		611E86E119B7895D0045D126 /* MuseoBelloViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E86DF19B7895D0045D126 /* MuseoBelloViewController.xib */; };
+		612D443E19B0D35E0018E33E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612D443D19B0D35E0018E33E /* Foundation.framework */; };
+		612D444219B0D35E0018E33E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612D444119B0D35E0018E33E /* UIKit.framework */; };
+		612D444A19B0D35E0018E33E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D444919B0D35E0018E33E /* main.m */; };
+		612D444E19B0D35E0018E33E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D444D19B0D35E0018E33E /* AppDelegate.m */; };
+		612D445119B0D35E0018E33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612D444F19B0D35E0018E33E /* Main.storyboard */; };
+		612D445419B0D35E0018E33E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D445319B0D35E0018E33E /* ViewController.m */; };
+		612D445619B0D35E0018E33E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612D445519B0D35E0018E33E /* Images.xcassets */; };
+		612D445D19B0D35E0018E33E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612D445C19B0D35E0018E33E /* XCTest.framework */; };
+		612D445E19B0D35E0018E33E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612D443D19B0D35E0018E33E /* Foundation.framework */; };
+		612D445F19B0D35E0018E33E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612D444119B0D35E0018E33E /* UIKit.framework */; };
+		612D446719B0D35F0018E33E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 612D446519B0D35F0018E33E /* InfoPlist.strings */; };
+		612D446919B0D35F0018E33E /* Taxi_Tour_PueblaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D446819B0D35F0018E33E /* Taxi_Tour_PueblaTests.m */; };
+		612D447319B0D75A0018E33E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612D447219B0D75A0018E33E /* OpenGLES.framework */; };
+		612D447519B0D7670018E33E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612D447419B0D7670018E33E /* GLKit.framework */; };
+		612D447719B0D78E0018E33E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612D447619B0D78E0018E33E /* QuartzCore.framework */; };
+		61B94FD319B6E499007D3BD4 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B94FD019B6E499007D3BD4 /* 1.png */; };
+		61B94FD419B6E499007D3BD4 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B94FD119B6E499007D3BD4 /* 2.png */; };
+		61B94FD519B6E499007D3BD4 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B94FD219B6E499007D3BD4 /* 3.png */; };
+		7D0C1EF119B4C2BD0089DA4F /* busqueda personalizada.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1EF019B4C2BD0089DA4F /* busqueda personalizada.png */; };
+		7D0C1EF319B4C66A0089DA4F /* Restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1EF219B4C66A0089DA4F /* Restaurant.png */; };
+		7D0C1EF519B4C6A20089DA4F /* Hospedaje.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1EF419B4C6A20089DA4F /* Hospedaje.png */; };
+		7D0C1EF719B4C6F70089DA4F /* Entretenimiento.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1EF619B4C6F70089DA4F /* Entretenimiento.png */; };
+		7D0C1EF919B4C94C0089DA4F /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1EF819B4C94C0089DA4F /* Menu.png */; };
+		7D0C1EFB19B4C9530089DA4F /* Como llegar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1EFA19B4C9530089DA4F /* Como llegar.png */; };
+		7D17968319B685B600C746E5 /* Marriot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17968219B685B600C746E5 /* Marriot.jpg */; };
+		7D17968519B6869600C746E5 /* CityExpress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17968419B6869600C746E5 /* CityExpress.jpg */; };
+		7D17968719B688EE00C746E5 /* presidenteintercontinental.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17968619B688EE00C746E5 /* presidenteintercontinental.jpg */; };
+		7D17968919B6899B00C746E5 /* Purificadora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17968819B6899B00C746E5 /* Purificadora.jpg */; };
+		7D17968B19B691E500C746E5 /* holidayInn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17968A19B691E500C746E5 /* holidayInn.jpg */; };
+		7D17969019B6969700C746E5 /* Fonda SantaClara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17968F19B6969700C746E5 /* Fonda SantaClara.jpg */; };
+		7D17969219B6974F00C746E5 /* sindicato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17969119B6974F00C746E5 /* sindicato.jpg */; };
+		7D17969419B6987200C746E5 /* munecos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17969319B6987200C746E5 /* munecos.jpg */; };
+		7D17969619B6A4A000C746E5 /* mural.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17969519B6A4A000C746E5 /* mural.jpg */; };
+		7D17969819B6AB1A00C746E5 /* Portada.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D17969719B6AB1A00C746E5 /* Portada.png */; };
+		7D17969A19B6AD4B00C746E5 /* Taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D17969919B6AD4B00C746E5 /* Taxi.png */; };
+		7D17969C19B6B5B000C746E5 /* Bodegas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17969B19B6B5B000C746E5 /* Bodegas.jpg */; };
+		7D17969E19B6B62000C746E5 /* noria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D17969D19B6B62000C746E5 /* noria.jpg */; };
+		7D23859D19B2627000AD8FF6 /* Table2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D23859C19B2627000AD8FF6 /* Table2ViewController.m */; };
+		7D4EBB6119B4E7450099E609 /* CaminoReal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D4EBB6019B4E7450099E609 /* CaminoReal.jpg */; };
+		7D9C714219B236C600A9DF22 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9C714119B236C600A9DF22 /* MapKit.framework */; };
+		7D9C714519B236FD00A9DF22 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C714419B236FD00A9DF22 /* MapViewController.m */; };
+		7D9C714819B23FFB00A9DF22 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C714719B23FFB00A9DF22 /* TableViewController.m */; };
+		98199D5119B7CC9500C33D1C /* bubu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D5019B7CC9500C33D1C /* bubu.jpg */; };
+		98199D5719B7CEB900C33D1C /* Casamunecos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D5619B7CEB900C33D1C /* Casamunecos.jpg */; };
+		98199D5919B7CF1700C33D1C /* galeriaarte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D5819B7CF1700C33D1C /* galeriaarte.jpg */; };
+		98199D5B19B7CF2B00C33D1C /* palasio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D5A19B7CF2B00C33D1C /* palasio.jpg */; };
+		98199D5D19B7CF3100C33D1C /* amparo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D5C19B7CF3100C33D1C /* amparo.jpg */; };
+		98199D5F19B7CF3800C33D1C /* museojose.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 98199D5E19B7CF3700C33D1C /* museojose.JPG */; };
+		98199D6119B7D30E00C33D1C /* macarti.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D6019B7D30E00C33D1C /* macarti.jpeg */; };
+		98199D6319B7D31300C33D1C /* elcanto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D6219B7D31300C33D1C /* elcanto.jpg */; };
+		98199D6519B7D31700C33D1C /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D6419B7D31700C33D1C /* blue.jpg */; };
+		98199D6719B7D31B00C33D1C /* bull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D6619B7D31B00C33D1C /* bull.jpg */; };
+		98199D6919B7D31F00C33D1C /* rosarito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D6819B7D31F00C33D1C /* rosarito.jpg */; };
+		98199D6B19B7D32300C33D1C /* remedios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D6A19B7D32300C33D1C /* remedios.jpg */; };
+		98199D6D19B7D32800C33D1C /* tacobar.png in Resources */ = {isa = PBXBuildFile; fileRef = 98199D6C19B7D32800C33D1C /* tacobar.png */; };
+		98199D6F19B7D32D00C33D1C /* salome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D6E19B7D32D00C33D1C /* salome.jpg */; };
+		98199D7119B7D33100C33D1C /* rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D7019B7D33100C33D1C /* rock.jpg */; };
+		98199D7319B7D33600C33D1C /* sport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D7219B7D33600C33D1C /* sport.jpg */; };
+		98199D7519B7D70300C33D1C /* serdan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D7419B7D70300C33D1C /* serdan.jpg */; };
+		98199D7719B7D71000C33D1C /* ferro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D7619B7D71000C33D1C /* ferro.jpg */; };
+		98199D7919B7DE4A00C33D1C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D7819B7DE4A00C33D1C /* 1.jpg */; };
+		98199D7B19B7DE4F00C33D1C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D7A19B7DE4F00C33D1C /* 2.jpg */; };
+		98199D7D19B7DE5400C33D1C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D7C19B7DE5400C33D1C /* 5.jpg */; };
+		98199D7F19B7DE5800C33D1C /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D7E19B7DE5800C33D1C /* 6.jpg */; };
+		98199D8119B7DE5D00C33D1C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D8019B7DE5D00C33D1C /* 7.jpg */; };
+		98199D8319B7DE6700C33D1C /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D8219B7DE6700C33D1C /* 8.jpg */; };
+		98199D8519B7DE6C00C33D1C /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D8419B7DE6C00C33D1C /* 9.jpg */; };
+		98199D8719B7DE7000C33D1C /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D8619B7DE7000C33D1C /* 10.jpg */; };
+		98199D8919B7DE7400C33D1C /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D8819B7DE7400C33D1C /* 11.jpg */; };
+		98199D8B19B7DE7800C33D1C /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D8A19B7DE7800C33D1C /* 12.jpg */; };
+		98199D8D19B7E4FA00C33D1C /* macartis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D8C19B7E4FA00C33D1C /* macartis.jpg */; };
+		98199D8F19B7E53B00C33D1C /* cantose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D8E19B7E53B00C33D1C /* cantose.jpg */; };
+		98199D9119B7E58D00C33D1C /* blu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D9019B7E58D00C33D1C /* blu.jpg */; };
+		98199D9319B7E5DB00C33D1C /* bull-mccabe-puebla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D9219B7E5DB00C33D1C /* bull-mccabe-puebla.jpg */; };
+		98199D9519B7E63200C33D1C /* crerosa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D9419B7E63200C33D1C /* crerosa.jpg */; };
+		98199D9719B7E67C00C33D1C /* remedioscantina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D9619B7E67C00C33D1C /* remedioscantina.jpg */; };
+		98199D9919B7E6E000C33D1C /* poncho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D9819B7E6E000C33D1C /* poncho.jpg */; };
+		98199D9B19B7E71E00C33D1C /* salomeba.png in Resources */ = {isa = PBXBuildFile; fileRef = 98199D9A19B7E71D00C33D1C /* salomeba.png */; };
+		98199D9D19B7E7A400C33D1C /* rokpub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D9C19B7E7A400C33D1C /* rokpub.jpg */; };
+		98199D9F19B7E7D600C33D1C /* touch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199D9E19B7E7D600C33D1C /* touch.jpg */; };
+		98199DA119B7EB8700C33D1C /* serd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DA019B7EB8700C33D1C /* serd.jpg */; };
+		98199DA319B7EB9F00C33D1C /* ferroca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DA219B7EB9F00C33D1C /* ferroca.jpg */; };
+		98199DA519B7EBB200C33D1C /* ampar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DA419B7EBB200C33D1C /* ampar.jpg */; };
+		98199DA719B7EBC700C33D1C /* palacio.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 98199DA619B7EBC700C33D1C /* palacio.JPG */; };
+		98199DA919B7EBF200C33D1C /* udlap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DA819B7EBF200C33D1C /* udlap.jpg */; };
+		98199DAB19B7EC1700C33D1C /* muñeca.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 98199DAA19B7EC1700C33D1C /* muñeca.JPG */; };
+		98199DAD19B7EE3E00C33D1C /* molin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DAC19B7EE3E00C33D1C /* molin.jpg */; };
+		98199DAF19B7EE4700C33D1C /* mural.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DAE19B7EE4700C33D1C /* mural.jpg */; };
+		98199DB119B7EE4F00C33D1C /* casa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DB019B7EE4F00C33D1C /* casa.jpg */; };
+		98199DB319B7EE5500C33D1C /* sindica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DB219B7EE5500C33D1C /* sindica.jpg */; };
+		98199DB519B7EE5C00C33D1C /* fonda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DB419B7EE5C00C33D1C /* fonda.jpg */; };
+		98199DB719B7EE7B00C33D1C /* noria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DB619B7EE7B00C33D1C /* noria.jpg */; };
+		98199DB919B7F05E00C33D1C /* puri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DB819B7F05E00C33D1C /* puri.jpg */; };
+		98199DBB19B7F06D00C33D1C /* marri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DBA19B7F06D00C33D1C /* marri.jpg */; };
+		98199DBD19B7F07300C33D1C /* express.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DBC19B7F07300C33D1C /* express.jpg */; };
+		98199DBF19B7F0A200C33D1C /* recepcion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DBE19B7F0A200C33D1C /* recepcion.jpg */; };
+		98199DC119B7F0B100C33D1C /* bigpic7794.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DC019B7F0B100C33D1C /* bigpic7794.jpg */; };
+		98199DC319B7F17D00C33D1C /* cama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DC219B7F17D00C33D1C /* cama.jpg */; };
+		98199DC519B7F25100C33D1C /* purificadoraZama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98199DC419B7F25100C33D1C /* purificadoraZama.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		612D446019B0D35F0018E33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 612D443219B0D35E0018E33E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 612D443919B0D35E0018E33E;
+			remoteInfo = "Taxi Tour Puebla";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6110FA7619B7517300C16128 /* flechaZama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flechaZama.png; sourceTree = "<group>"; };
+		611E86BE19B7783F0045D126 /* SanPedroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SanPedroViewController.h; sourceTree = "<group>"; };
+		611E86BF19B7783F0045D126 /* SanPedroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanPedroViewController.m; sourceTree = "<group>"; };
+		611E86C019B7783F0045D126 /* SanPedroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SanPedroViewController.xib; sourceTree = "<group>"; };
+		611E86C319B7786A0045D126 /* SanPedro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanPedro.jpg; sourceTree = "<group>"; };
+		611E86C519B780140045D126 /* ElEncantoRuisenor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ElEncantoRuisenor.jpg; sourceTree = "<group>"; };
+		611E86C719B780DE0045D126 /* ElCantoRuisenorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElCantoRuisenorViewController.h; sourceTree = "<group>"; };
+		611E86C819B780DE0045D126 /* ElCantoRuisenorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElCantoRuisenorViewController.m; sourceTree = "<group>"; };
+		611E86C919B780DE0045D126 /* ElCantoRuisenorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElCantoRuisenorViewController.xib; sourceTree = "<group>"; };
+		611E86CC19B785080045D126 /* ElEncantoRuisenorGrande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ElEncantoRuisenorGrande.jpg; sourceTree = "<group>"; };
+		611E86CE19B7857D0045D126 /* PosadaSanPedro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PosadaSanPedro.jpg; sourceTree = "<group>"; };
+		611E86D019B7865C0045D126 /* BlueBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueBarViewController.h; sourceTree = "<group>"; };
+		611E86D119B7865C0045D126 /* BlueBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueBarViewController.m; sourceTree = "<group>"; };
+		611E86D219B7865C0045D126 /* BlueBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueBarViewController.xib; sourceTree = "<group>"; };
+		611E86D519B786670045D126 /* BlueBar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlueBar.jpg; sourceTree = "<group>"; };
+		611E86D719B7866D0045D126 /* BlueBarGrande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlueBarGrande.jpg; sourceTree = "<group>"; };
+		611E86D919B788CE0045D126 /* MuseoBello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MuseoBello.jpg; sourceTree = "<group>"; };
+		611E86DB19B788D50045D126 /* MuseoBelloGrande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MuseoBelloGrande.jpg; sourceTree = "<group>"; };
+		611E86DD19B7895D0045D126 /* MuseoBelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuseoBelloViewController.h; sourceTree = "<group>"; };
+		611E86DE19B7895D0045D126 /* MuseoBelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuseoBelloViewController.m; sourceTree = "<group>"; };
+		611E86DF19B7895D0045D126 /* MuseoBelloViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MuseoBelloViewController.xib; sourceTree = "<group>"; };
+		612D443A19B0D35E0018E33E /* Taxi Tour Puebla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taxi Tour Puebla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		612D443D19B0D35E0018E33E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		612D443F19B0D35E0018E33E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		612D444119B0D35E0018E33E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		612D444519B0D35E0018E33E /* Taxi Tour Puebla-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taxi Tour Puebla-Info.plist"; sourceTree = "<group>"; };
+		612D444919B0D35E0018E33E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		612D444B19B0D35E0018E33E /* Taxi Tour Puebla-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taxi Tour Puebla-Prefix.pch"; sourceTree = "<group>"; };
+		612D444C19B0D35E0018E33E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		612D444D19B0D35E0018E33E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		612D445019B0D35E0018E33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		612D445219B0D35E0018E33E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		612D445319B0D35E0018E33E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		612D445519B0D35E0018E33E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		612D445B19B0D35E0018E33E /* Taxi Tour PueblaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taxi Tour PueblaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		612D445C19B0D35E0018E33E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		612D446419B0D35F0018E33E /* Taxi Tour PueblaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taxi Tour PueblaTests-Info.plist"; sourceTree = "<group>"; };
+		612D446619B0D35F0018E33E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		612D446819B0D35F0018E33E /* Taxi_Tour_PueblaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taxi_Tour_PueblaTests.m; sourceTree = "<group>"; };
+		612D447219B0D75A0018E33E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		612D447419B0D7670018E33E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		612D447619B0D78E0018E33E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		61B94FD019B6E499007D3BD4 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		61B94FD119B6E499007D3BD4 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		61B94FD219B6E499007D3BD4 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		7D0C1EF019B4C2BD0089DA4F /* busqueda personalizada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "busqueda personalizada.png"; sourceTree = "<group>"; };
+		7D0C1EF219B4C66A0089DA4F /* Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restaurant.png; sourceTree = "<group>"; };
+		7D0C1EF419B4C6A20089DA4F /* Hospedaje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hospedaje.png; sourceTree = "<group>"; };
+		7D0C1EF619B4C6F70089DA4F /* Entretenimiento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Entretenimiento.png; sourceTree = "<group>"; };
+		7D0C1EF819B4C94C0089DA4F /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
+		7D0C1EFA19B4C9530089DA4F /* Como llegar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Como llegar.png"; sourceTree = "<group>"; };
+		7D17968219B685B600C746E5 /* Marriot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marriot.jpg; sourceTree = "<group>"; };
+		7D17968419B6869600C746E5 /* CityExpress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CityExpress.jpg; sourceTree = "<group>"; };
+		7D17968619B688EE00C746E5 /* presidenteintercontinental.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presidenteintercontinental.jpg; sourceTree = "<group>"; };
+		7D17968819B6899B00C746E5 /* Purificadora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Purificadora.jpg; sourceTree = "<group>"; };
+		7D17968A19B691E500C746E5 /* holidayInn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = holidayInn.jpg; sourceTree = "<group>"; };
+		7D17968F19B6969700C746E5 /* Fonda SantaClara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fonda SantaClara.jpg"; sourceTree = "<group>"; };
+		7D17969119B6974F00C746E5 /* sindicato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sindicato.jpg; sourceTree = "<group>"; };
+		7D17969319B6987200C746E5 /* munecos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munecos.jpg; sourceTree = "<group>"; };
+		7D17969519B6A4A000C746E5 /* mural.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mural.jpg; sourceTree = "<group>"; };
+		7D17969719B6AB1A00C746E5 /* Portada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portada.png; sourceTree = "<group>"; };
+		7D17969919B6AD4B00C746E5 /* Taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Taxi.png; sourceTree = "<group>"; };
+		7D17969B19B6B5B000C746E5 /* Bodegas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bodegas.jpg; sourceTree = "<group>"; };
+		7D17969D19B6B62000C746E5 /* noria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noria.jpg; sourceTree = "<group>"; };
+		7D23859B19B2627000AD8FF6 /* Table2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table2ViewController.h; sourceTree = "<group>"; };
+		7D23859C19B2627000AD8FF6 /* Table2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table2ViewController.m; sourceTree = "<group>"; };
+		7D4EBB6019B4E7450099E609 /* CaminoReal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CaminoReal.jpg; sourceTree = "<group>"; };
+		7D9C714119B236C600A9DF22 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7D9C714319B236FD00A9DF22 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		7D9C714419B236FD00A9DF22 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		7D9C714619B23FFB00A9DF22 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		7D9C714719B23FFB00A9DF22 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		98199D5019B7CC9500C33D1C /* bubu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bubu.jpg; sourceTree = "<group>"; };
+		98199D5619B7CEB900C33D1C /* Casamunecos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Casamunecos.jpg; sourceTree = "<group>"; };
+		98199D5819B7CF1700C33D1C /* galeriaarte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galeriaarte.jpg; sourceTree = "<group>"; };
+		98199D5A19B7CF2B00C33D1C /* palasio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palasio.jpg; sourceTree = "<group>"; };
+		98199D5C19B7CF3100C33D1C /* amparo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amparo.jpg; sourceTree = "<group>"; };
+		98199D5E19B7CF3700C33D1C /* museojose.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museojose.JPG; sourceTree = "<group>"; };
+		98199D6019B7D30E00C33D1C /* macarti.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macarti.jpeg; sourceTree = "<group>"; };
+		98199D6219B7D31300C33D1C /* elcanto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elcanto.jpg; sourceTree = "<group>"; };
+		98199D6419B7D31700C33D1C /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue.jpg; sourceTree = "<group>"; };
+		98199D6619B7D31B00C33D1C /* bull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bull.jpg; sourceTree = "<group>"; };
+		98199D6819B7D31F00C33D1C /* rosarito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosarito.jpg; sourceTree = "<group>"; };
+		98199D6A19B7D32300C33D1C /* remedios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = remedios.jpg; sourceTree = "<group>"; };
+		98199D6C19B7D32800C33D1C /* tacobar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tacobar.png; sourceTree = "<group>"; };
+		98199D6E19B7D32D00C33D1C /* salome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salome.jpg; sourceTree = "<group>"; };
+		98199D7019B7D33100C33D1C /* rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rock.jpg; sourceTree = "<group>"; };
+		98199D7219B7D33600C33D1C /* sport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sport.jpg; sourceTree = "<group>"; };
+		98199D7419B7D70300C33D1C /* serdan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = serdan.jpg; sourceTree = "<group>"; };
+		98199D7619B7D71000C33D1C /* ferro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ferro.jpg; sourceTree = "<group>"; };
+		98199D7819B7DE4A00C33D1C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		98199D7A19B7DE4F00C33D1C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		98199D7C19B7DE5400C33D1C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		98199D7E19B7DE5800C33D1C /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		98199D8019B7DE5D00C33D1C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		98199D8219B7DE6700C33D1C /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		98199D8419B7DE6C00C33D1C /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		98199D8619B7DE7000C33D1C /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		98199D8819B7DE7400C33D1C /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		98199D8A19B7DE7800C33D1C /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		98199D8C19B7E4FA00C33D1C /* macartis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macartis.jpg; sourceTree = "<group>"; };
+		98199D8E19B7E53B00C33D1C /* cantose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cantose.jpg; sourceTree = "<group>"; };
+		98199D9019B7E58D00C33D1C /* blu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blu.jpg; sourceTree = "<group>"; };
+		98199D9219B7E5DB00C33D1C /* bull-mccabe-puebla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bull-mccabe-puebla.jpg"; sourceTree = "<group>"; };
+		98199D9419B7E63200C33D1C /* crerosa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crerosa.jpg; sourceTree = "<group>"; };
+		98199D9619B7E67C00C33D1C /* remedioscantina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = remedioscantina.jpg; sourceTree = "<group>"; };
+		98199D9819B7E6E000C33D1C /* poncho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poncho.jpg; sourceTree = "<group>"; };
+		98199D9A19B7E71D00C33D1C /* salomeba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salomeba.png; sourceTree = "<group>"; };
+		98199D9C19B7E7A400C33D1C /* rokpub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rokpub.jpg; sourceTree = "<group>"; };
+		98199D9E19B7E7D600C33D1C /* touch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = touch.jpg; sourceTree = "<group>"; };
+		98199DA019B7EB8700C33D1C /* serd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = serd.jpg; sourceTree = "<group>"; };
+		98199DA219B7EB9F00C33D1C /* ferroca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ferroca.jpg; sourceTree = "<group>"; };
+		98199DA419B7EBB200C33D1C /* ampar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ampar.jpg; sourceTree = "<group>"; };
+		98199DA619B7EBC700C33D1C /* palacio.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palacio.JPG; sourceTree = "<group>"; };
+		98199DA819B7EBF200C33D1C /* udlap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = udlap.jpg; sourceTree = "<group>"; };
+		98199DAA19B7EC1700C33D1C /* muñeca.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "muñeca.JPG"; sourceTree = "<group>"; };
+		98199DAC19B7EE3E00C33D1C /* molin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = molin.jpg; sourceTree = "<group>"; };
+		98199DAE19B7EE4700C33D1C /* mural.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mural.jpg; sourceTree = "<group>"; };
+		98199DB019B7EE4F00C33D1C /* casa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casa.jpg; sourceTree = "<group>"; };
+		98199DB219B7EE5500C33D1C /* sindica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sindica.jpg; sourceTree = "<group>"; };
+		98199DB419B7EE5C00C33D1C /* fonda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fonda.jpg; sourceTree = "<group>"; };
+		98199DB619B7EE7B00C33D1C /* noria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noria.jpg; sourceTree = "<group>"; };
+		98199DB819B7F05E00C33D1C /* puri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puri.jpg; sourceTree = "<group>"; };
+		98199DBA19B7F06D00C33D1C /* marri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marri.jpg; sourceTree = "<group>"; };
+		98199DBC19B7F07300C33D1C /* express.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = express.jpg; sourceTree = "<group>"; };
+		98199DBE19B7F0A200C33D1C /* recepcion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = recepcion.jpg; sourceTree = "<group>"; };
+		98199DC019B7F0B100C33D1C /* bigpic7794.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigpic7794.jpg; sourceTree = "<group>"; };
+		98199DC219B7F17D00C33D1C /* cama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cama.jpg; sourceTree = "<group>"; };
+		98199DC419B7F25100C33D1C /* purificadoraZama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = purificadoraZama.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		612D443719B0D35E0018E33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9C714219B236C600A9DF22 /* MapKit.framework in Frameworks */,
+				612D447719B0D78E0018E33E /* QuartzCore.framework in Frameworks */,
+				612D447519B0D7670018E33E /* GLKit.framework in Frameworks */,
+				612D447319B0D75A0018E33E /* OpenGLES.framework in Frameworks */,
+				612D444219B0D35E0018E33E /* UIKit.framework in Frameworks */,
+				612D443E19B0D35E0018E33E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612D445819B0D35E0018E33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612D445D19B0D35E0018E33E /* XCTest.framework in Frameworks */,
+				612D445F19B0D35E0018E33E /* UIKit.framework in Frameworks */,
+				612D445E19B0D35E0018E33E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		612D443119B0D35E0018E33E = {
+			isa = PBXGroup;
+			children = (
+				612D444319B0D35E0018E33E /* Taxi Tour Puebla */,
+				612D446219B0D35F0018E33E /* Taxi Tour PueblaTests */,
+				612D443C19B0D35E0018E33E /* Frameworks */,
+				612D443B19B0D35E0018E33E /* Products */,
+				98199D5019B7CC9500C33D1C /* bubu.jpg */,
+				98199D5619B7CEB900C33D1C /* Casamunecos.jpg */,
+				98199D8C19B7E4FA00C33D1C /* macartis.jpg */,
+				98199D5819B7CF1700C33D1C /* galeriaarte.jpg */,
+				98199D5A19B7CF2B00C33D1C /* palasio.jpg */,
+				98199D5C19B7CF3100C33D1C /* amparo.jpg */,
+				98199D5E19B7CF3700C33D1C /* museojose.JPG */,
+				98199D6019B7D30E00C33D1C /* macarti.jpeg */,
+				98199D6219B7D31300C33D1C /* elcanto.jpg */,
+				98199D6419B7D31700C33D1C /* blue.jpg */,
+				98199D6619B7D31B00C33D1C /* bull.jpg */,
+				98199D6819B7D31F00C33D1C /* rosarito.jpg */,
+				98199D6A19B7D32300C33D1C /* remedios.jpg */,
+				98199D6C19B7D32800C33D1C /* tacobar.png */,
+				98199D6E19B7D32D00C33D1C /* salome.jpg */,
+				98199D7019B7D33100C33D1C /* rock.jpg */,
+				98199D9219B7E5DB00C33D1C /* bull-mccabe-puebla.jpg */,
+				98199D9819B7E6E000C33D1C /* poncho.jpg */,
+				98199D9E19B7E7D600C33D1C /* touch.jpg */,
+				98199D7219B7D33600C33D1C /* sport.jpg */,
+				98199D7419B7D70300C33D1C /* serdan.jpg */,
+				98199D8E19B7E53B00C33D1C /* cantose.jpg */,
+				98199D9C19B7E7A400C33D1C /* rokpub.jpg */,
+				98199D7619B7D71000C33D1C /* ferro.jpg */,
+				98199D9019B7E58D00C33D1C /* blu.jpg */,
+				98199D9A19B7E71D00C33D1C /* salomeba.png */,
+				98199D7819B7DE4A00C33D1C /* 1.jpg */,
+				98199DB619B7EE7B00C33D1C /* noria.jpg */,
+				98199DAC19B7EE3E00C33D1C /* molin.jpg */,
+				98199DB419B7EE5C00C33D1C /* fonda.jpg */,
+				98199DB019B7EE4F00C33D1C /* casa.jpg */,
+				98199DC419B7F25100C33D1C /* purificadoraZama.jpg */,
+				98199DB219B7EE5500C33D1C /* sindica.jpg */,
+				98199DAE19B7EE4700C33D1C /* mural.jpg */,
+				98199D7A19B7DE4F00C33D1C /* 2.jpg */,
+				98199D7C19B7DE5400C33D1C /* 5.jpg */,
+				98199D9419B7E63200C33D1C /* crerosa.jpg */,
+				98199D9619B7E67C00C33D1C /* remedioscantina.jpg */,
+				98199D7E19B7DE5800C33D1C /* 6.jpg */,
+				98199D8019B7DE5D00C33D1C /* 7.jpg */,
+				98199DC019B7F0B100C33D1C /* bigpic7794.jpg */,
+				98199DBA19B7F06D00C33D1C /* marri.jpg */,
+				98199DBE19B7F0A200C33D1C /* recepcion.jpg */,
+				98199DBC19B7F07300C33D1C /* express.jpg */,
+				98199DB819B7F05E00C33D1C /* puri.jpg */,
+				98199D8219B7DE6700C33D1C /* 8.jpg */,
+				98199DC219B7F17D00C33D1C /* cama.jpg */,
+				98199DA019B7EB8700C33D1C /* serd.jpg */,
+				98199DA819B7EBF200C33D1C /* udlap.jpg */,
+				98199DAA19B7EC1700C33D1C /* muñeca.JPG */,
+				98199DA619B7EBC700C33D1C /* palacio.JPG */,
+				98199DA419B7EBB200C33D1C /* ampar.jpg */,
+				98199DA219B7EB9F00C33D1C /* ferroca.jpg */,
+				98199D8419B7DE6C00C33D1C /* 9.jpg */,
+				98199D8619B7DE7000C33D1C /* 10.jpg */,
+				98199D8819B7DE7400C33D1C /* 11.jpg */,
+				98199D8A19B7DE7800C33D1C /* 12.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		612D443B19B0D35E0018E33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612D443A19B0D35E0018E33E /* Taxi Tour Puebla.app */,
+				612D445B19B0D35E0018E33E /* Taxi Tour PueblaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		612D443C19B0D35E0018E33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D9C714119B236C600A9DF22 /* MapKit.framework */,
+				612D447619B0D78E0018E33E /* QuartzCore.framework */,
+				612D447419B0D7670018E33E /* GLKit.framework */,
+				612D447219B0D75A0018E33E /* OpenGLES.framework */,
+				612D443D19B0D35E0018E33E /* Foundation.framework */,
+				612D443F19B0D35E0018E33E /* CoreGraphics.framework */,
+				612D444119B0D35E0018E33E /* UIKit.framework */,
+				612D445C19B0D35E0018E33E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		612D444319B0D35E0018E33E /* Taxi Tour Puebla */ = {
+			isa = PBXGroup;
+			children = (
+				612D444C19B0D35E0018E33E /* AppDelegate.h */,
+				612D444D19B0D35E0018E33E /* AppDelegate.m */,
+				612D444F19B0D35E0018E33E /* Main.storyboard */,
+				612D445219B0D35E0018E33E /* ViewController.h */,
+				612D445319B0D35E0018E33E /* ViewController.m */,
+				611E86DD19B7895D0045D126 /* MuseoBelloViewController.h */,
+				611E86DE19B7895D0045D126 /* MuseoBelloViewController.m */,
+				611E86DF19B7895D0045D126 /* MuseoBelloViewController.xib */,
+				611E86D019B7865C0045D126 /* BlueBarViewController.h */,
+				611E86D119B7865C0045D126 /* BlueBarViewController.m */,
+				611E86D219B7865C0045D126 /* BlueBarViewController.xib */,
+				611E86C719B780DE0045D126 /* ElCantoRuisenorViewController.h */,
+				611E86C819B780DE0045D126 /* ElCantoRuisenorViewController.m */,
+				611E86C919B780DE0045D126 /* ElCantoRuisenorViewController.xib */,
+				611E86BE19B7783F0045D126 /* SanPedroViewController.h */,
+				611E86BF19B7783F0045D126 /* SanPedroViewController.m */,
+				611E86C019B7783F0045D126 /* SanPedroViewController.xib */,
+				612D445519B0D35E0018E33E /* Images.xcassets */,
+				612D444419B0D35E0018E33E /* Supporting Files */,
+				7D9C714319B236FD00A9DF22 /* MapViewController.h */,
+				7D9C714419B236FD00A9DF22 /* MapViewController.m */,
+				7D9C714619B23FFB00A9DF22 /* TableViewController.h */,
+				7D9C714719B23FFB00A9DF22 /* TableViewController.m */,
+				7D23859B19B2627000AD8FF6 /* Table2ViewController.h */,
+				7D23859C19B2627000AD8FF6 /* Table2ViewController.m */,
+			);
+			path = "Taxi Tour Puebla";
+			sourceTree = "<group>";
+		};
+		612D444419B0D35E0018E33E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D17969919B6AD4B00C746E5 /* Taxi.png */,
+				7D17969719B6AB1A00C746E5 /* Portada.png */,
+				7D17968E19B6950C00C746E5 /* Restaurant */,
+				7D17968C19B6949F00C746E5 /* Hoteles */,
+				7D17968D19B694E500C746E5 /* iconos */,
+				612D444919B0D35E0018E33E /* main.m */,
+				612D444519B0D35E0018E33E /* Taxi Tour Puebla-Info.plist */,
+				612D444B19B0D35E0018E33E /* Taxi Tour Puebla-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		612D446219B0D35F0018E33E /* Taxi Tour PueblaTests */ = {
+			isa = PBXGroup;
+			children = (
+				612D446819B0D35F0018E33E /* Taxi_Tour_PueblaTests.m */,
+				612D446319B0D35F0018E33E /* Supporting Files */,
+			);
+			path = "Taxi Tour PueblaTests";
+			sourceTree = "<group>";
+		};
+		612D446319B0D35F0018E33E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				612D446419B0D35F0018E33E /* Taxi Tour PueblaTests-Info.plist */,
+				612D446519B0D35F0018E33E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D17968C19B6949F00C746E5 /* Hoteles */ = {
+			isa = PBXGroup;
+			children = (
+				611E86DB19B788D50045D126 /* MuseoBelloGrande.jpg */,
+				611E86D919B788CE0045D126 /* MuseoBello.jpg */,
+				611E86D719B7866D0045D126 /* BlueBarGrande.jpg */,
+				611E86D519B786670045D126 /* BlueBar.jpg */,
+				611E86CC19B785080045D126 /* ElEncantoRuisenorGrande.jpg */,
+				611E86C519B780140045D126 /* ElEncantoRuisenor.jpg */,
+				611E86CE19B7857D0045D126 /* PosadaSanPedro.jpg */,
+				611E86C319B7786A0045D126 /* SanPedro.jpg */,
+				7D4EBB6019B4E7450099E609 /* CaminoReal.jpg */,
+				7D17968219B685B600C746E5 /* Marriot.jpg */,
+				7D17968A19B691E500C746E5 /* holidayInn.jpg */,
+				7D17968619B688EE00C746E5 /* presidenteintercontinental.jpg */,
+				7D17968419B6869600C746E5 /* CityExpress.jpg */,
+				7D17968819B6899B00C746E5 /* Purificadora.jpg */,
+				61B94FD019B6E499007D3BD4 /* 1.png */,
+				61B94FD119B6E499007D3BD4 /* 2.png */,
+				61B94FD219B6E499007D3BD4 /* 3.png */,
+			);
+			name = Hoteles;
+			sourceTree = "<group>";
+		};
+		7D17968D19B694E500C746E5 /* iconos */ = {
+			isa = PBXGroup;
+			children = (
+				6110FA7619B7517300C16128 /* flechaZama.png */,
+				7D0C1EF019B4C2BD0089DA4F /* busqueda personalizada.png */,
+				7D0C1EF219B4C66A0089DA4F /* Restaurant.png */,
+				7D0C1EF419B4C6A20089DA4F /* Hospedaje.png */,
+				7D0C1EF619B4C6F70089DA4F /* Entretenimiento.png */,
+				7D0C1EF819B4C94C0089DA4F /* Menu.png */,
+				7D0C1EFA19B4C9530089DA4F /* Como llegar.png */,
+			);
+			name = iconos;
+			sourceTree = "<group>";
+		};
+		7D17968E19B6950C00C746E5 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				7D17969519B6A4A000C746E5 /* mural.jpg */,
+				7D17969319B6987200C746E5 /* munecos.jpg */,
+				7D17969D19B6B62000C746E5 /* noria.jpg */,
+				7D17969B19B6B5B000C746E5 /* Bodegas.jpg */,
+				7D17969119B6974F00C746E5 /* sindicato.jpg */,
+				7D17968F19B6969700C746E5 /* Fonda SantaClara.jpg */,
+			);
+			name = Restaurant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		612D443919B0D35E0018E33E /* Taxi Tour Puebla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612D446C19B0D35F0018E33E /* Build configuration list for PBXNativeTarget "Taxi Tour Puebla" */;
+			buildPhases = (
+				612D443619B0D35E0018E33E /* Sources */,
+				612D443719B0D35E0018E33E /* Frameworks */,
+				612D443819B0D35E0018E33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taxi Tour Puebla";
+			productName = "Taxi Tour Puebla";
+			productReference = 612D443A19B0D35E0018E33E /* Taxi Tour Puebla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		612D445A19B0D35E0018E33E /* Taxi Tour PueblaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612D446F19B0D35F0018E33E /* Build configuration list for PBXNativeTarget "Taxi Tour PueblaTests" */;
+			buildPhases = (
+				612D445719B0D35E0018E33E /* Sources */,
+				612D445819B0D35E0018E33E /* Frameworks */,
+				612D445919B0D35E0018E33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				612D446119B0D35F0018E33E /* PBXTargetDependency */,
+			);
+			name = "Taxi Tour PueblaTests";
+			productName = "Taxi Tour PueblaTests";
+			productReference = 612D445B19B0D35E0018E33E /* Taxi Tour PueblaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		612D443219B0D35E0018E33E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BUAP;
+				TargetAttributes = {
+					612D445A19B0D35E0018E33E = {
+						TestTargetID = 612D443919B0D35E0018E33E;
+					};
+				};
+			};
+			buildConfigurationList = 612D443519B0D35E0018E33E /* Build configuration list for PBXProject "Taxi Tour Puebla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 612D443119B0D35E0018E33E;
+			productRefGroup = 612D443B19B0D35E0018E33E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				612D443919B0D35E0018E33E /* Taxi Tour Puebla */,
+				612D445A19B0D35E0018E33E /* Taxi Tour PueblaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		612D443819B0D35E0018E33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98199D8919B7DE7400C33D1C /* 11.jpg in Resources */,
+				7D0C1EF119B4C2BD0089DA4F /* busqueda personalizada.png in Resources */,
+				98199D6519B7D31700C33D1C /* blue.jpg in Resources */,
+				7D17969E19B6B62000C746E5 /* noria.jpg in Resources */,
+				98199D8119B7DE5D00C33D1C /* 7.jpg in Resources */,
+				7D4EBB6119B4E7450099E609 /* CaminoReal.jpg in Resources */,
+				7D0C1EF319B4C66A0089DA4F /* Restaurant.png in Resources */,
+				98199D8D19B7E4FA00C33D1C /* macartis.jpg in Resources */,
+				98199DC319B7F17D00C33D1C /* cama.jpg in Resources */,
+				98199DAB19B7EC1700C33D1C /* muñeca.JPG in Resources */,
+				7D17969819B6AB1A00C746E5 /* Portada.png in Resources */,
+				98199D8B19B7DE7800C33D1C /* 12.jpg in Resources */,
+				7D17969419B6987200C746E5 /* munecos.jpg in Resources */,
+				98199D6119B7D30E00C33D1C /* macarti.jpeg in Resources */,
+				98199DAD19B7EE3E00C33D1C /* molin.jpg in Resources */,
+				98199D8519B7DE6C00C33D1C /* 9.jpg in Resources */,
+				98199DC519B7F25100C33D1C /* purificadoraZama.jpg in Resources */,
+				98199DA719B7EBC700C33D1C /* palacio.JPG in Resources */,
+				98199DB919B7F05E00C33D1C /* puri.jpg in Resources */,
+				7D17969C19B6B5B000C746E5 /* Bodegas.jpg in Resources */,
+				98199D7119B7D33100C33D1C /* rock.jpg in Resources */,
+				98199D5119B7CC9500C33D1C /* bubu.jpg in Resources */,
+				98199D5719B7CEB900C33D1C /* Casamunecos.jpg in Resources */,
+				98199DB119B7EE4F00C33D1C /* casa.jpg in Resources */,
+				7D17969219B6974F00C746E5 /* sindicato.jpg in Resources */,
+				98199D9319B7E5DB00C33D1C /* bull-mccabe-puebla.jpg in Resources */,
+				7D17968719B688EE00C746E5 /* presidenteintercontinental.jpg in Resources */,
+				98199D7719B7D71000C33D1C /* ferro.jpg in Resources */,
+				98199D5B19B7CF2B00C33D1C /* palasio.jpg in Resources */,
+				611E86D619B786670045D126 /* BlueBar.jpg in Resources */,
+				98199D6D19B7D32800C33D1C /* tacobar.png in Resources */,
+				98199DA319B7EB9F00C33D1C /* ferroca.jpg in Resources */,
+				98199D9519B7E63200C33D1C /* crerosa.jpg in Resources */,
+				98199D9719B7E67C00C33D1C /* remedioscantina.jpg in Resources */,
+				98199D6B19B7D32300C33D1C /* remedios.jpg in Resources */,
+				7D17969019B6969700C746E5 /* Fonda SantaClara.jpg in Resources */,
+				98199D8719B7DE7000C33D1C /* 10.jpg in Resources */,
+				98199DB519B7EE5C00C33D1C /* fonda.jpg in Resources */,
+				611E86E119B7895D0045D126 /* MuseoBelloViewController.xib in Resources */,
+				98199D9119B7E58D00C33D1C /* blu.jpg in Resources */,
+				612D445619B0D35E0018E33E /* Images.xcassets in Resources */,
+				98199D9F19B7E7D600C33D1C /* touch.jpg in Resources */,
+				611E86DC19B788D50045D126 /* MuseoBelloGrande.jpg in Resources */,
+				6110FA7719B7517300C16128 /* flechaZama.png in Resources */,
+				98199D6F19B7D32D00C33D1C /* salome.jpg in Resources */,
+				7D0C1EF519B4C6A20089DA4F /* Hospedaje.png in Resources */,
+				98199D9D19B7E7A400C33D1C /* rokpub.jpg in Resources */,
+				98199DA919B7EBF200C33D1C /* udlap.jpg in Resources */,
+				7D17968519B6869600C746E5 /* CityExpress.jpg in Resources */,
+				98199DB719B7EE7B00C33D1C /* noria.jpg in Resources */,
+				98199D6719B7D31B00C33D1C /* bull.jpg in Resources */,
+				612D445119B0D35E0018E33E /* Main.storyboard in Resources */,
+				611E86C419B7786A0045D126 /* SanPedro.jpg in Resources */,
+				611E86C619B780140045D126 /* ElEncantoRuisenor.jpg in Resources */,
+				98199DB319B7EE5500C33D1C /* sindica.jpg in Resources */,
+				7D0C1EF719B4C6F70089DA4F /* Entretenimiento.png in Resources */,
+				7D17968B19B691E500C746E5 /* holidayInn.jpg in Resources */,
+				611E86DA19B788CE0045D126 /* MuseoBello.jpg in Resources */,
+				98199D5F19B7CF3800C33D1C /* museojose.JPG in Resources */,
+				98199D9B19B7E71E00C33D1C /* salomeba.png in Resources */,
+				7D0C1EF919B4C94C0089DA4F /* Menu.png in Resources */,
+				98199D6919B7D31F00C33D1C /* rosarito.jpg in Resources */,
+				98199D5D19B7CF3100C33D1C /* amparo.jpg in Resources */,
+				611E86D819B7866D0045D126 /* BlueBarGrande.jpg in Resources */,
+				98199D7919B7DE4A00C33D1C /* 1.jpg in Resources */,
+				7D17968319B685B600C746E5 /* Marriot.jpg in Resources */,
+				611E86CF19B7857D0045D126 /* PosadaSanPedro.jpg in Resources */,
+				611E86D419B7865C0045D126 /* BlueBarViewController.xib in Resources */,
+				98199DBB19B7F06D00C33D1C /* marri.jpg in Resources */,
+				61B94FD419B6E499007D3BD4 /* 2.png in Resources */,
+				98199DBF19B7F0A200C33D1C /* recepcion.jpg in Resources */,
+				98199DC119B7F0B100C33D1C /* bigpic7794.jpg in Resources */,
+				7D17969619B6A4A000C746E5 /* mural.jpg in Resources */,
+				98199D5919B7CF1700C33D1C /* galeriaarte.jpg in Resources */,
+				98199DA119B7EB8700C33D1C /* serd.jpg in Resources */,
+				98199DA519B7EBB200C33D1C /* ampar.jpg in Resources */,
+				98199D7519B7D70300C33D1C /* serdan.jpg in Resources */,
+				61B94FD519B6E499007D3BD4 /* 3.png in Resources */,
+				611E86CD19B785080045D126 /* ElEncantoRuisenorGrande.jpg in Resources */,
+				98199D7319B7D33600C33D1C /* sport.jpg in Resources */,
+				98199DAF19B7EE4700C33D1C /* mural.jpg in Resources */,
+				98199D7B19B7DE4F00C33D1C /* 2.jpg in Resources */,
+				611E86CB19B780DE0045D126 /* ElCantoRuisenorViewController.xib in Resources */,
+				7D17969A19B6AD4B00C746E5 /* Taxi.png in Resources */,
+				61B94FD319B6E499007D3BD4 /* 1.png in Resources */,
+				98199DBD19B7F07300C33D1C /* express.jpg in Resources */,
+				98199D8F19B7E53B00C33D1C /* cantose.jpg in Resources */,
+				98199D7F19B7DE5800C33D1C /* 6.jpg in Resources */,
+				98199D9919B7E6E000C33D1C /* poncho.jpg in Resources */,
+				98199D8319B7DE6700C33D1C /* 8.jpg in Resources */,
+				98199D7D19B7DE5400C33D1C /* 5.jpg in Resources */,
+				611E86C219B7783F0045D126 /* SanPedroViewController.xib in Resources */,
+				7D17968919B6899B00C746E5 /* Purificadora.jpg in Resources */,
+				98199D6319B7D31300C33D1C /* elcanto.jpg in Resources */,
+				7D0C1EFB19B4C9530089DA4F /* Como llegar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612D445919B0D35E0018E33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612D446719B0D35F0018E33E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		612D443619B0D35E0018E33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D23859D19B2627000AD8FF6 /* Table2ViewController.m in Sources */,
+				612D445419B0D35E0018E33E /* ViewController.m in Sources */,
+				612D444E19B0D35E0018E33E /* AppDelegate.m in Sources */,
+				611E86E019B7895D0045D126 /* MuseoBelloViewController.m in Sources */,
+				612D444A19B0D35E0018E33E /* main.m in Sources */,
+				611E86D319B7865C0045D126 /* BlueBarViewController.m in Sources */,
+				611E86C119B7783F0045D126 /* SanPedroViewController.m in Sources */,
+				7D9C714819B23FFB00A9DF22 /* TableViewController.m in Sources */,
+				611E86CA19B780DE0045D126 /* ElCantoRuisenorViewController.m in Sources */,
+				7D9C714519B236FD00A9DF22 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612D445719B0D35E0018E33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612D446919B0D35F0018E33E /* Taxi_Tour_PueblaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		612D446119B0D35F0018E33E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 612D443919B0D35E0018E33E /* Taxi Tour Puebla */;
+			targetProxy = 612D446019B0D35F0018E33E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		612D444F19B0D35E0018E33E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612D445019B0D35E0018E33E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		612D446519B0D35F0018E33E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612D446619B0D35F0018E33E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		612D446A19B0D35F0018E33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		612D446B19B0D35F0018E33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		612D446D19B0D35F0018E33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taxi Tour Puebla/Taxi Tour Puebla-Prefix.pch";
+				INFOPLIST_FILE = "Taxi Tour Puebla/Taxi Tour Puebla-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		612D446E19B0D35F0018E33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taxi Tour Puebla/Taxi Tour Puebla-Prefix.pch";
+				INFOPLIST_FILE = "Taxi Tour Puebla/Taxi Tour Puebla-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		612D447019B0D35F0018E33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taxi Tour Puebla.app/Taxi Tour Puebla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taxi Tour Puebla/Taxi Tour Puebla-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Taxi Tour PueblaTests/Taxi Tour PueblaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		612D447119B0D35F0018E33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taxi Tour Puebla.app/Taxi Tour Puebla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taxi Tour Puebla/Taxi Tour Puebla-Prefix.pch";
+				INFOPLIST_FILE = "Taxi Tour PueblaTests/Taxi Tour PueblaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		612D443519B0D35E0018E33E /* Build configuration list for PBXProject "Taxi Tour Puebla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612D446A19B0D35F0018E33E /* Debug */,
+				612D446B19B0D35F0018E33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612D446C19B0D35F0018E33E /* Build configuration list for PBXNativeTarget "Taxi Tour Puebla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612D446D19B0D35F0018E33E /* Debug */,
+				612D446E19B0D35F0018E33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612D446F19B0D35F0018E33E /* Build configuration list for PBXNativeTarget "Taxi Tour PueblaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612D447019B0D35F0018E33E /* Debug */,
+				612D447119B0D35F0018E33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 612D443219B0D35E0018E33E /* Project object */;
+}
